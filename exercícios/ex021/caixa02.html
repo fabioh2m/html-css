@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: navajowhite;
+            margin: 0%;
+
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0;
+            box-shadow: 2px 3px 4px;
+        }
+
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0;
+            box-shadow: 2px 3px 4px;
+
+        }
+
+        footer {
+            text-align: center;
+            background-color: black;
+            color: aliceblue;
+            padding: 1px;
+            font-weight: bold;
+
+        }
+
+        footer > p {
+            margin: 0;
+        }
+
+        
+
+        article {
+            background-color: aquamarine;
+            box-shadow: 2px 2px 4px black;
+            border-radius: 20px 0;
+        }
+
+     
+        article > aside {
+            background-color: aqua;
+            padding: 1px;
+            margin: 5px;
+            margin-bottom: 10px;
+            
+        }
+
+        nav {
+            background-color: cornflowerblue;
+            padding: 1px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px black;
+            border-radius: 5px 0;
+        }
+
+        nav > a {
+            text-decoration: none;
+            /* text-decoration: none; tira o sublinhado do link */
+            color: aliceblue;
+            font-weight: bold;
+            box-shadow: 2px 3px 4px black;
+            border-radius: 2px;
+            margin-right: 60px;
+            /* margin-left: 60px; */
+            /* margin: 50px; */
+            
+
+}
+
+#assuntos {
+    text-align: center;
+    background-color: aqua;
+    margin: 1px;
+    padding: 10px;
+    box-shadow: 2px 3px 4px;
+    border-radius: 20px 0;
+    
+    
+}
+
+video {
+    display: none;
+}
+
+.tít {
+    margin: auto;
+    width: 210px;
+    color: blue;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(20, 20, 20);
+}
+
+h1 {
+    text-shadow: 2px 1px 2px navajowhite;
+}
+
+h2 {  
+    margin: 10px;
+}
+
+aside {
+    border-radius: 10px 0;
+}
+
+.art {
+    margin: 2px;
+    padding: 2px;
+    
+}
+#notícias {
+    border-radius: 20px 0;
+    box-shadow: 2px 3px 4px;
+
+}
+
+p { 
+    text-indent: 30px;
+}
+
+
+
+    </style>
+
+</head>
+
+<body>
+    <video src="img/tesla.mp4" autoplay loop></video>
+    <!-- tirei o vídeo n CSS com display: none;
+    poderia ser com opacity: 0; mas o espaço q ele ocupa no body continuaria -->
+    <header>
+        <h1>Meu site</h1>
+        
+          <nav>
+              <a href="#">link</a>
+              <a href="#">link</a>
+              <a href="#">link</a>
+              <a href="#">link</a>
+              <a href="#">link</a>
+          </nav>        
+        
+
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p class="tít">Esportes Política Tecnologia</p>
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícia sobre a Programação</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus commodi sapiente laborum corrupti harum sit quasi? Sed laudantium voluptatem asperiores nihil, earum veniam? Ea sequi odio repudiandae delectus accusamus minus.</p>
+                <aside>
+                 <p class="art">artigo escrito por José da Silva</p>   
+                </aside>
+            </article>
+
+        </section>
+
+        
+
+    </main>
+    
+    <footer> 
+        <p><small>Desenvolvido pelo programador : Fábioh2m</small></p>
+
+    </footer>
+</body>
+</html>

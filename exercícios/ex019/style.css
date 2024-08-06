@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, #2adbdbdd, #5ae478 );
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #e4ff1a;
+    color: black;
+    width: 550px;
+    border-radius: 15px;
+    margin: auto;
+    
+    /* o # no CSS é o id="" do HTML
+     E o . no CSS é a class do HTML*/
+}
+h1 {
+    color:  rgb(17, 63, 131);
+    }
+h2{
+    color: rgb(3, 117, 32);
+     }
+
+.intermediario {
+    color: orange;
+}
+
+.avancado {
+    color: crimson;
+}
+
+.destaque {
+    background-color: aliceblue;
+    /* essa linha foi só para um exemplo de wrap com a tag:span  */
+}
+
+/* p {
+    background-color: white;
+}deixei essa linha comentada pq ficou feia na pág. */
+
+/* #008000, #4adbc8, #837a75, #e4ff1a, #c6ca53 */

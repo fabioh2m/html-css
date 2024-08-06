@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exenplo de hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div>ol {
+            display: none;
+            /* (div > p)...escondeu o filho da div, no caso (p) o q tem no filho não aparece na pág. 
+            display: none;=esconde
+            display: block; =mostra*/
+        }
+
+        div:hover>ol {
+            display: block;
+            color: chartreuse;
+            background-color: crimson;
+            width: 250px;
+        }
+
+        div:hover {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exenplo de hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>
+        menu
+
+        <ol>
+            <li>ex018</li>
+            <li>ex019</li>
+            <li><a href="pseudoclass.html">ex020</a></li>
+        </ol>
+
+    </div>
+    <p>fim do Exenplo</p>
+
+</body>
+
+</html>
