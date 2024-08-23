@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+
+    background-image: url(exercícios/ex022/imagens/wallpaper001.jpg);
+}
+.quadrado {
+
+    background-color: aqua;
+    width: 570px;
+    height: 320px;
+    border: solid black;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.quadrado#q2 {
+
+    background-image: linear-gradient(to bottom,  yellow, black );
+}
+
+.quadrado#q3 {
+
+    background-image: url(exercícios/ex022/imagens/wallpaper001.jpg) ;
+}

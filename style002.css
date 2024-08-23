@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(exercícios/ex022/imagens/wallpaper003.jpg);
+    background-size: 1919px 919px;
+    /* background-repeat: no-repeat; 
+    aplica do tamanho original da igm */
+}
