@@ -2,9 +2,11 @@
 
 body {
 
-    height: 98vh;
+    height: 98vh; 
+     /* se eu não aplicar o height acima, a propriedade backgraound center center vai fixar a img apartir do center top e replicar o restante da tela, já com o height 98vh a img fica toda centralizada. */
     background-image: url(imagens/wallpaper003.jpg);
     background-position: center center;
+    
 
 
 }
