@@ -1,25 +1,58 @@
 @charset "UTF-8";
 
 body {
-
+    
     background-image: url(exercícios/ex022/imagens/wallpaper001.jpg);
+
+
+
 }
-.quadrado {
+
+.quadrado1 {
+
+    background-position: center center;
+}
+
+
+/* .quadrado {
+    display: inline-block;
+    background-color: aqua;
+    width: 570px;
+    height: 320px;
+    border: solid black;
+    border-radius: 10px;
+} */
+
+
+
+
+.quadrado1#q1 {
 
     background-color: aqua;
     width: 570px;
     height: 320px;
     border: solid black;
-    display: inline-block;
     border-radius: 10px;
+    background-position: right bottom;
+
 }
 
-.quadrado#q2 {
+.quadrado2#q2 {
 
-    background-image: linear-gradient(to bottom,  yellow, black );
+    width: 570px;
+    height: 320px;
+    border: solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, yellow, black);
 }
 
-.quadrado#q3 {
-
-    background-image: url(exercícios/ex022/imagens/wallpaper001.jpg) ;
+.quadrado3#q3 {
+    background-color: aqua;
+    width: 570px;
+    height: 320px;
+    border: solid black;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url(desafios/d010/imagens/irina-blok-pq.jpg);
+    background-position: center center;
 }
