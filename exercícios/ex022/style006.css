@@ -2,21 +2,29 @@
 
 body {
     height: 100vh;
-    background-color: black;
+    /* background-color: black;
     background-image: url(imagens/wallpaper002.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed; */
+
+    background: black url(imagens/wallpaper002.jpg) top center no-repeat fixed;
+    background-size: cover;
+
+    /* o shorthand de BG tem que ser na orden acima, mas com o BG-size não funciona, então deixa o size fora da sequência.
+    OBS:o BG-size não pode ficar acima da img */
 
 }
 
 main {
     background-image: url(imagens/pattern004.png);
-    width: 400px;
+    max-width: 400px;
+    /* trava o conteúdo do main em 400px  */
     padding: 10px;
     margin: auto;
     border: 1px solid black;
     border-radius: 10px;
     background-color: aliceblue;
-    
+
 }
