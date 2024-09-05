@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-color: aqua;
+}
+
+#container {
+    position: relative;
+    /* a position de quem contem é por padrão relative. */
+
+    height: 96vh;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: blueviolet;
+    background-image: url(imagens/target001.png);
+    background-size: 100% 100%;
+}
+
+#conteudo {
+    
+    position: absolute;
+    /* quando se aplica position absolute no conteúdo, possibilita usar(left: ; right: ; top: ; bottom: ;) */
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+
+
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    border: 1px solid black;
+    background-image: url(imagens/target001.png);
+    background-size: 100% 100%;
+    background-color: yellow;
+}

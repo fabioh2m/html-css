@@ -13,7 +13,7 @@ body {
     background-size: cover;
 
     /* o shorthand de BG tem que ser na orden acima, mas com o BG-size não funciona, então deixa o size fora da sequência.
-    OBS:o BG-size não pode ficar acima da img */
+    OBS:o BG-size não pode ficar acima */
 
 }
 
