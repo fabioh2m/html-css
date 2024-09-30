@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: blue;
+    
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+caption {
+
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: bisque;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: gray;
+    color: aliceblue;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.estados {
+    color: blue;
+    
+}
+
+.num {
+    text-align: right;
+   
+    
+
+}
+
+.numf {
+    text-align: center;
+}
+
+/* para efeito zebrado a pseudo class :nth-child() pode ser 2n= n.de linhas, odd=linha par, even=linha impar*/
+tbody > tr:nth-child(odd) {
+    background-color: blanchedalmond;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: aquamarine;
+}
+
+thead > tr > th {
+    position: sticky;
+    /* para fixar o header e a table está com position-relative */
+    top: -1px;
+    /* esse top foi pra tirar um espacinho no topo */
+    background-color: gray;
+    
+}
+
+
+
+
+
