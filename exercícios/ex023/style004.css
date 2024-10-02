@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+tbody > tr:nth-child(2n) {
+    background-color: aquamarine;
+
+}
+
+caption {
+    font-weight: bold; 
+    color: aliceblue;
+    background-image: linear-gradient(to right,  palevioletred, blue);
+    border: 1px solid black;
+    font-size: 1.5em;
+}
+
+table {
+    
+    background-color: aqua;
+    width: 600px;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+}
+
+.tr1 {
+    
+    background-color: burlywood;
+    
+}
+
+.tdm {
+    background-color: palevioletred;
+    
+}
+
+.tdh {
+    background-color: rgba(68, 68, 247, 0.849);
+}
+
+td {
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
