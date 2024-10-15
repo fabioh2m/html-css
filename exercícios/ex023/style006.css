@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+tbody > tr:nth-child(2n) {
+    background-color: rgb(182, 245, 245);
+
+
+}
+
+
+caption {
+    background-color: aqua;
+}
+
+table {
+    width: 700px;
+    height: 300px;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 2em;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+div#conteiner {
+    overflow-x: auto;
+    
+}
+
+/* evolva a table numa div com id e no css dê um overflow-x:auto para ficar responsivo em telas menores, isso vai criar um scroll embaixo da tabela e não na pág. */
