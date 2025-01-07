@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 09</title>
+</head>
+<body>
+    <form action="php/cadastro.php" method="get">
+
+
+        <p>
+            <label for="inum">Número:</label>
+            <input type="range" name="numero" id="inum" min="0" max="100" value="0"
+            oninput="ival.innerHTML = Number(inum.value)">
+            <output id="ival">0</output>
+
+        </p>
+
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+    </form>
+    
+</body>
+</html>
